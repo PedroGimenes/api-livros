@@ -19,6 +19,7 @@ O projeto simula o gerenciamento de um acervo de livros, permitindo cadastrar, l
 * Utilizar o **Source Control** do VS Code
 * Registrar a evolução do projeto no **GitHub**
 
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
