@@ -779,6 +779,7 @@ Versionamento
  Projeto publicado no GitHub;
  README atualizado;
  Evolução do projeto registrada.
+ 
 20. Objetivos Finais do Projeto
 
 Ao final das quatro etapas, o projeto deverá apresentar uma aplicação completa capaz de realizar o gerenciamento de livros.
