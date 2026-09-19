@@ -15,7 +15,6 @@ app = FastAPI(
     description="API didática para gerenciamento de livros.",
 )
 
-
 @app.post("/livros", response_model=LivroResposta, status_code=201, tags=["Livros"])
 def criar_livro(dados_livro: LivroCriacao, sessao_banco: Session = Depends(obter_sessao_banco)):
     novo_livro = Livro(
