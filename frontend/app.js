@@ -1,5 +1,6 @@
 const URL_API = "http://127.0.0.1:8000";
 
+
 const formularioLivro = document.querySelector("#book-form");
 const entradaIdLivro = document.querySelector("#book-id");
 const entradaTitulo = document.querySelector("#title");
