@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 09/09/2026 às 20:10
+-- Tempo de geração: 23/09/2026 às 22:30
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -40,7 +40,8 @@ CREATE TABLE `livros` (
 --
 
 INSERT INTO `livros` (`id`, `titulo`, `autor`, `ano_publicacao`, `disponivel`) VALUES
-(1, 'hosti', 'eu', 2022, 1);
+(1, 'hosti', 'eu', 2022, 1),
+(3, 'hostinge', 'eu', 2067, 1);
 
 --
 -- Índices para tabelas despejadas
@@ -61,7 +62,7 @@ ALTER TABLE `livros`
 -- AUTO_INCREMENT de tabela `livros`
 --
 ALTER TABLE `livros`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
